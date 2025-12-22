@@ -21,9 +21,8 @@ p.textbackground {
   text-align: center;
 }
 p.textfront {
-  position: absolute;
   top: 0;
-  font-size: 15px;
+  font-size: 20px;
   left: 0;
   z-index: 2;
   color: red;
