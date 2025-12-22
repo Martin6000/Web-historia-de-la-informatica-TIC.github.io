@@ -1,7 +1,15 @@
+h2 {
+  font-size: 28px;
+  text-align: center;
+}
+p {
+  font-size: 14px;
+  text-align: center;
+}
 .titlecontent {
   position: relative;
 }
-.textbackground {
+.textbackground p {
   position: absolute;
   font-size: 80px;
   top: 0;
@@ -9,7 +17,7 @@
   z-index: 1;
   color: gray;
 }
-.textfront {
+.textfront p {
   position: absolute;
   top: 0;
   font-size: 15px;
@@ -20,12 +28,4 @@
 .eniacimage {
   width: 1400px;
   height: 1400px;
-}
-h2 {
-  font-size: 28px;
-  text-align: center;
-}
-p {
-  font-size: 14px;
-  text-align: center;
 }
