@@ -1,6 +1,19 @@
-h1 {
-  font-size: 48px;
-  text-align: center;
+.titlecontent {
+  position: relative;
+}
+.textbackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  color: gray;
+}
+.textfront {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; /* Mayor = más arriba */
+  color: red;
 }
 h2 {
   font-size: 28px;
