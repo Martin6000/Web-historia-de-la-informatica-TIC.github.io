@@ -9,22 +9,15 @@ p {
   font-size: 14px;
   text-align: center;
 }
-.titlecontent {
-  position: relative;
-}
 p.textbackground {
-  font-size: 80px;
-  top: 0;
-  left: 0;
-  z-index: 1;
   color: rgb(255, 255, 255);
   text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 p.textfront {
-  top: 0;
   font-size: 20px;
-  left: 0;
-  z-index: 2;
   color: rgb(255, 255, 255);
   text-align: center;
 }
