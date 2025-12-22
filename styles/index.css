@@ -11,8 +11,11 @@ p {
 }
 h1.textbackground {
   color: rgb(255, 255, 255);
+  width: 100%;
+  padding-left: 25%;
+  padding-right: 25%;
+  box-sizing: border-box;
   text-align: center;
-  width: 50%;
 }
 p.textfront {
   font-size: 20px;
