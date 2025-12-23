@@ -75,7 +75,13 @@ p.puntoquinto {
   align-items: top;
 }
 .eniacimage {
-  width: 600px;
+  width: 550px;
   height: auto;
   margin-left: 25%;
+}
+.transistorimage {
+  width: 550px;
+  height: auto;
+  margin-left: 25%;
+  margin-right: 25%;
 }
