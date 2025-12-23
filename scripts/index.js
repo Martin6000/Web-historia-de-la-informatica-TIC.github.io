@@ -60,5 +60,5 @@ ibmImage.addEventListener("click", imagenClickibm);
 
 let nombre = prompt("Introducir usuario");
     if (nombre) {
-         document.getElementById("usuariosaludo").textContent = usuariosaludo;
+         document.getElementById("usuariosaludo").textContent = nombre;
     }
