@@ -33,8 +33,8 @@ boton.addEventListener("click", () => {
     });
 });
 
-const appleImage = document.querySelector(".apple-image");
-const ibmImage = document.querySelector(".ibm-image");
+const appleImage = document.querySelector(".appleimage");
+const ibmImage = document.querySelector(".ibmimage");
 var applefactor = 1;
 var ibmfactor = 1;
 function imagenClickapple(event) {
