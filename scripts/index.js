@@ -21,3 +21,14 @@ function rebote() {
 }
 
 rebote();
+
+boton.addEventListener("click", () => {
+    const porcentaje = 25;
+    const alturaTotal = document.body.scrollHeight - window.innerHeight;
+    const nuevaPosicion = window.scrollY + (alturaTotal * porcentaje / 100);
+
+    window.scrollTo({
+        top: nuevaPosicion,
+        behavior: "smooth"
+    });
+});
