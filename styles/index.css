@@ -6,6 +6,7 @@ h2 {
   margin-top: 80px;
   font-size: 56px;
   margin-left: 25%;
+  margin-right: 25%;
   text-align: left;
 }
 p {
@@ -34,31 +35,38 @@ p.textfrontautor {
 h2.puntoinicio {
   margin-top: 400px;
   margin-left: 25%;
+  margin-right: 25%;
   margin-bottom: 30px;
 }
 p.puntoinicio {
   margin-left: 25%;
+  margin-right: 25%;
   margin-top: 10px;
 }
 p.puntoprimero {
   text-align: left;
   margin-left: 25%;
+  margin-right: 25%;
 }
 p.puntosegundo {
   text-align: left;
   margin-left: 25%;
+  margin-right: 25%;
 }
 p.puntotercero {
   text-align: left;
   margin-left: 25%;
+  margin-right: 25%;
 }
 p.puntocuarto {
   text-align: left;
   margin-left: 25%;
+  margin-right: 25%;
 }
 p.puntoquinto {
   text-align: left;
   margin-left: 25%;
+  margin-right: 25%;
 }
 
 .eniacimage {
