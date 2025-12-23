@@ -1,6 +1,7 @@
 body {
   background-color: rgb(7, 25, 51);
   color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
 }
 h2 {
   margin-top: 80px;
