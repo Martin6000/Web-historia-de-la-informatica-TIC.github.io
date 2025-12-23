@@ -123,3 +123,7 @@ p.puntoquinto {
 .transistorcenter {
   text-align: center;
 }
+.appleimage,
+.ibmimage {
+    cursor: pointer;
+}
