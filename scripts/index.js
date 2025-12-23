@@ -32,3 +32,28 @@ boton.addEventListener("click", () => {
         behavior: "smooth"
     });
 });
+
+const appleImage = document.querySelector(".apple-image");
+const ibmImage = document.querySelector(".ibm-image");
+var applefactor = 1;
+var ibmfactor = 1;
+function imagenClickapple(event) {
+    applefactor = applefactor * -1;
+    if (applefactor === 1) {
+        appleImage.src = "images/Apple2.jpg";
+    }
+    if (applefactor === -1) {
+        appleImage.src = "images/IBMPC.jpg";
+    }
+}
+function imagenClickibm(event) {
+    ibmfactor = ibmfactor * -1;
+    if (ibmfactor === 1) {
+        ibmImage.src = "images/IBMPC.jpg";
+    }
+    if (ibmfactor === -1) {
+        ibmImage.src = "images/Apple2.jpg";
+    }
+}
+appleImage.addEventListener("click", imagenClickapple);
+ibmImage.addEventListener("click", imagenClickibm);
