@@ -62,12 +62,3 @@ let nombre = prompt("Introducir usuario");
     if (nombre) {
          document.getElementById("saludo").textContent = usuariosaludo;
     }
-
-const boton2 = document.querySelector(".butondown2");
-
-boton2.addEventListener("click", () => {
-    let nuevoNombre = prompt("Introducir usuario nuevamente");
-    if (nuevoNombre) {
-            document.getElementById("saludo").textContent = nuevoNombre;
-    }
-});
