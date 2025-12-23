@@ -4,8 +4,7 @@ body {
 }
 h2 {
   font-size: 56px;
-  max-width: 600px;
-  margin: 0 auto;
+  margin: 20%;
   text-align: left;
 }
 p {
@@ -31,25 +30,32 @@ p.textfrontautor {
   text-align: center;
 }
 
-.puntoinicio {
- margin-top: 150px;
+h2.puntoinicio {
+  margin-top: 150px;
+  margin-left: 20%;
 }
-.puntoprimero {
-  text-align: left;
-  margin-left: 10%;
-  margin-right: 40%;
+p.puntoinicio {
+  margin-left: 20%;
 }
-.puntosegundo {
+p.puntoprimero {
   text-align: left;
+  margin-left: 20%;
 }
-.puntotercero {
+p.puntosegundo {
   text-align: left;
+  margin-left: 20%;
 }
-.puntocuarto {
+p.puntotercero {
   text-align: left;
+  margin-left: 20%;
 }
-.puntoquinto {
+p.puntocuarto {
   text-align: left;
+  margin-left: 20%;
+}
+p.puntoquinto {
+  text-align: left;
+  margin-left: 20%;
 }
 
 .eniacimage {
