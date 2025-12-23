@@ -43,7 +43,7 @@ function imagenClickapple(event) {
         appleImage.src = "images/Apple2.jpg";
     }
     if (applefactor === -1) {
-        appleImage.src = "images/IBMPC.jpg";
+        appleImage.src = "images/AppleI.jpg";
     }
 }
 function imagenClickibm(event) {
@@ -52,7 +52,7 @@ function imagenClickibm(event) {
         ibmImage.src = "images/IBMPC.jpg";
     }
     if (ibmfactor === -1) {
-        ibmImage.src = "images/Apple2.jpg";
+        ibmImage.src = "images/Comodore64.jpg";
     }
 }
 appleImage.addEventListener("click", imagenClickapple);
