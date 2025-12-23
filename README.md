@@ -1,6 +1,6 @@
 # Web Historia de la Informática - TIC
 
-Esta página web trata sobre la **historia de la informática** y su diseño está inspirado en la página del periódico [El País](https://elpais.com/especiales/2019/el-co2-en-el-cambio-climatico/).
+Esta página web trata sobre la **historia de la informática** y su diseño está inspirado en la página del periódico El País: https://elpais.com/especiales/2019/el-co2-en-el-cambio-climatico/.
 
 Además de la estructura en **HTML** y el diseño con **CSS**, la página también cuenta con varios recursos de **JavaScript**:
 
