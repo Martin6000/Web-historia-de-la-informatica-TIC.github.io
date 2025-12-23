@@ -23,12 +23,12 @@ function rebote() {
 rebote();
 
 boton.addEventListener("click", () => {
-    const porcentaje = 25;
-    const alturaTotal = document.body.scrollHeight - window.innerHeight;
-    const nuevaPosicion = window.scrollY + (alturaTotal * porcentaje / 100);
+    const percent = 15;
+    const heighttotal = document.body.scrollHeight - window.innerHeight;
+    const newposition = window.scrollY + (heighttotal * percent / 100);
 
     window.scrollTo({
-        top: nuevaPosicion,
+        top: newposition,
         behavior: "smooth"
     });
 });
